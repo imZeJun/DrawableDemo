@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DrawableResource</string>
+    <string name="title_activity_nine_patch">NinePatchActivity</string>
+    <string name="title_activity_layer_drawable">LayerDrawableActivity</string>
+    <string name="title_activity_state_list_drawable">StateListDrawableActivity</string>
+    <string name="title_activity_level_list_drawable">LevelListDrawableActivity</string>
+</resources>

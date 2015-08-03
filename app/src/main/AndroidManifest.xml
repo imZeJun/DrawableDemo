@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.demo.drawableresource" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".BitmapDrawableActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".NinePatchActivity"
+            android:label="@string/title_activity_nine_patch" >
+        </activity>
+        <activity
+            android:name=".LayerDrawableActivity"
+            android:label="@string/title_activity_layer_drawable" >
+        </activity>
+        <activity
+            android:name=".StateListDrawableActivity"
+            android:label="@string/title_activity_state_list_drawable" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LevelListDrawableActivity"
+            android:label="@string/title_activity_level_list_drawable" >
+        </activity>
+    </application>
+
+</manifest>

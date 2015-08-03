@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 是否被按下:state_pressed -->
+    <!-- 是否获得焦点:state_focused -->
+    <!-- 鼠标是否在上面滑动:state_activated -->
+    <!-- 是否被选中:state_selected -->
+    <!-- 是否可勾选:state_checkable -->
+    <!-- 是否被勾选:state_checkable -->
+    <!-- 是否可用:state_enabled -->
+    <!-- 是否被激活:state_activated -->
+    <!-- 是否获得窗口焦点:state_window_focused -->
+    <!-- 判断是从第一个item开始执行的，如果满足要求了，那么之下的item都不会执行判断 -->
+    <item android:state_pressed="true" android:drawable="@color/material_blue_grey_950"/>
+    <item android:drawable="@color/material_blue_grey_800"/>
+</selector>
