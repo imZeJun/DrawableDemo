@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- shape 标签 -->
+<!-- shape : rectangle,oval,line,ring -->
+<!-- innerRadius：内环的半径 -->
+<!-- innerRadiusRatio：内环半径等于环的宽度除以radio -->
+<!-- thickness：环的厚度 -->
+<!-- thicknessRatio：环的厚度等于环的宽度除以radio -->
+<!-- useLevel：用在LevelListDrawable -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="ring">
+    <!-- 创建圆角，只有shape为rectangle才有用，还可以分别指定4个角的半径 -->
+    <corners android:radius="4dp"/>
+    <!-- 渐变颜色 -->
+    <!-- angle 渐变角度，必须是45的倍数 -->
+    <!-- centerX，centerY：渐变中心的起始坐标，0到1 -->
+    <!-- startColor，endColor：开始结束颜色 -->
+    <!-- type：渐变模式，linear线性渐变，radial辐射渐变，sweep扫描渐变 -->
+    <!-- gradientRadius：辐射渐变半径，仅radial有效 -->
+    <gradient
+        android:angle="0"
+        android:centerX="0"
+        android:centerY="0"
+        android:startColor="@color/material_deep_teal_500"
+        android:endColor="@color/material_deep_teal_200"
+        android:gradientRadius="5dp"
+        android:type="sweep"
+        android:useLevel="false"/>
+    <!-- 内容与视图边界的距离 -->
+    <padding android:top="0dp"/>
+    <!-- shape的大小 -->
+    <size
+        android:height="50dp"
+        android:width="50dp"/>
+    <!-- 填充这个shape的颜色 -->
+    <solid android:color="@android:color/white"/>
+    <!-- shape使用的画笔 -->
+    <!-- 这个shape使用的画笔，当shape为line时必须使用 -->
+    <stroke
+        android:width="2dp"
+        android:color="@color/material_deep_teal_200"
+        android:dashGap="1dp"
+        android:dashWidth="1dp"/>
+
+</shape>

@@ -22,15 +22,38 @@
         <activity
             android:name=".StateListDrawableActivity"
             android:label="@string/title_activity_state_list_drawable" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".LevelListDrawableActivity"
             android:label="@string/title_activity_level_list_drawable" >
+        </activity>
+        <activity
+            android:name=".TransitionDrawableActivity"
+            android:label="@string/title_activity_transition_drawable" >
+        </activity>
+        <activity
+            android:name=".InsertDrawableActivity"
+            android:label="@string/title_activity_insert_drawable" >
+        </activity>
+        <activity
+            android:name=".ClipDrawableActivity"
+            android:label="@string/title_activity_clip_drawable" >
+        </activity>
+        <activity
+            android:name=".ScaleDrawableActivity"
+            android:label="@string/title_activity_scale_drawable" >
+        </activity>
+        <activity
+            android:name=".RotateDrawableActivity"
+            android:label="@string/title_activity_rotate_drawable" >
+        </activity>
+        <activity
+            android:name=".GradientDrawableActivity"
+            android:label="@string/title_activity_gradient_drawable" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
     </application>
 

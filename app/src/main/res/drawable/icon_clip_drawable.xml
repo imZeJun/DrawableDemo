@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- clipOrientation说明 -->
+<!-- top 放在容器顶部，不改变大小，当orientation是vertical时从下开始裁剪 -->
+<!-- bottom 放在容器底部，不改变大小，当orientation是vertical时从上开始裁剪 -->
+<!-- left 放在容器左部，不改变大小，当orientation是horizontal时从右开始裁剪 -->
+<!-- right 放在容器右部，不改变大小，当orientation是vertical是从左开始裁剪 -->
+<!-- center_vertical 放在容器垂直中间，不改变大小，当orientation是vertical时发生在上下，当orientation是horizontal时发生在左右 -->
+<!-- fill_horizontal 水平方向不发生裁剪 -->
+<!-- center 放在水平垂直坐标的中间，不改变大小 -->
+<!-- fill 填充整个容器，不会发生裁剪 -->
+
+<!-- 额外选项，能够把它的容器的左右边界，设置为子对象的左右边缘的裁剪边界 -->
+<!-- clip_vertical 如果重力设为top，则裁剪下边，如果重力设为bottom则裁剪下边，否则上下两边都要裁剪 -->
+<!-- clip_horizontal 与上类似 -->
+<clip
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="left|clip_horizontal"
+    android:clipOrientation="horizontal"
+    android:drawable="@color/material_deep_teal_500">
+</clip>

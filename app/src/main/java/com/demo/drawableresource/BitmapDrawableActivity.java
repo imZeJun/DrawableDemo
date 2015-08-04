@@ -7,7 +7,6 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.ImageView;
 
-
 public class BitmapDrawableActivity extends AppCompatActivity {
 
     @Override
@@ -17,11 +16,11 @@ public class BitmapDrawableActivity extends AppCompatActivity {
         ImageView imageView = (ImageView) findViewById(R.id.image);
         Drawable drawable = getResources().getDrawable(R.drawable.icon_bitmap, null);
         BitmapDrawable bitmapDrawable = (BitmapDrawable) drawable;
-        //Òªµ÷ÓÃsetBackground(Drawable drawable)²ÅÐÐ£¬µ÷ÓÃsetImageDrawable(Drawable drawable)¶ÔÓÚbitmapµ±ÖÐµÄtileModeÃ»ÓÐÓÃ¡£
+        //Òªï¿½ï¿½ï¿½ï¿½setBackground(Drawable drawable)ï¿½ï¿½ï¿½Ð£ï¿½ï¿½ï¿½ï¿½ï¿½setImageDrawable(Drawable drawable)ï¿½ï¿½ï¿½ï¿½bitmapï¿½ï¿½ï¿½Ðµï¿½tileModeÃ»ï¿½ï¿½ï¿½Ã¡ï¿½
         imageView.setBackground(bitmapDrawable);
         if (bitmapDrawable != null) {
             Bitmap bitmap = bitmapDrawable.getBitmap();
-            imageView.setImageBitmap(bitmap); //ÈçºÎ½«Ò»¸öDrawable¶ÔÏó×ª»»³ÉÎªBitmap¶ÔÏó¡£
+            imageView.setImageBitmap(bitmap); //ï¿½ï¿½Î½ï¿½Ò»ï¿½ï¿½Drawableï¿½ï¿½ï¿½ï¿½×ªï¿½ï¿½ï¿½ï¿½ÎªBitmapï¿½ï¿½ï¿½ï¿½
         }
     }
 
